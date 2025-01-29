@@ -6,7 +6,7 @@ export class UserService {
     const user = {
       email: 'bodunrindavidbond@gmail.com',
       current_datetime: new Date().toISOString(),
-      github_url: '',
+      github_url: 'https://github.com/masterchief-Dave/hng-12-stage-0',
     }
     return user
   }
