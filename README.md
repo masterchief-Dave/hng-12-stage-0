@@ -1,40 +1,81 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+  <a href="http://nestjs.com/" target="_blank">
+    <img src="https://nestjs.com/img/logo-small.svg" width="120" alt="NestJS Logo" />
+  </a>
 </p>
 
+# HNG Stage 0 Task 🚀
 
-## Description
-HNG STAGE 0 TASK
+## 📌 Description
+This is a simple project built for HNG Stage 0.
 
-## Project setup
+---
 
-```bash
-$ pnpm install
-```
-
-## Compile and run the project
+## 🛠️ Project Setup
+To install dependencies, run:
 
 ```bash
-# development
-$ pnpm run start
-
-# watch mode
-$ pnpm run start:dev
-
-# production mode
-$ pnpm run start:prod
+pnpm install
 ```
 
-## Deployment
+---
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+## 🚀 Running the Project
 
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
-
+### Development Mode
 ```bash
-$ pnpm install -g mau
-$ mau deploy
+pnpm run start:dev
 ```
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+### Production Mode
+```bash
+pnpm run start:prod
+```
+
+---
+
+## 🌐 API Endpoints & Responses
+
+### ✅ Health Check
+**Endpoint:**
+```http
+GET https://hng-12-stage-0.onrender.com/health
+```
+**Response:**
+```json
+{
+  "timestamp": "29/1/2025",
+  "message": "Server is up and running"
+}
+```
+
+### 👤 User Information
+**Endpoint:**
+```http
+GET https://hng-12-stage-0.onrender.com/user
+```
+**Response:**
+```json
+{
+  "email": "bodunrindavidbond@gmail.com",
+  "current_datetime": "2025-01-29T06:34:53.361Z",
+  "github_url": "https://github.com/masterchief-Dave/hng-12-stage-0"
+}
+```
+
+---
+
+## 🔗 Hire Developers
+Looking for talented developers? Check out these hiring pages:
+
+- 🐍 [Hire Python Developers](https://hng.tech/hire/python-developers)
+- ⚙️ [Hire C# Developers](https://hng.tech/hire/csharp-developers)
+- 🦾 [Hire Golang Developers](https://hng.tech/hire/golang-developers)
+- 🐘 [Hire PHP Developers](https://hng.tech/hire/php-developers)
+- ☕ [Hire Java Developers](https://hng.tech/hire/java-developers)
+- 🔥 [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
+
+---
+
+🎯 **Follow the project on GitHub:** [masterchief-Dave/hng-12-stage-0](https://github.com/masterchief-Dave/hng-12-stage-0) 🚀
 
